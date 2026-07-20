@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060A4D4DDDDFE744C2AC071B /* BatteryBinStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9AEBD6813DD6DDF2B49B1 /* BatteryBinStore.swift */; };
+		14DA6CD424C924AA6B2C6386 /* BatteryLifeEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E67D140726BC6125DBDD04 /* BatteryLifeEngineTests.swift */; };
+		39D01723BE40E05B0C3C0FEB /* BatteryLifeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021EFBCF9E7D1A2089FE9AF /* BatteryLifeEngine.swift */; };
+		405E75F932387678DC7821A7 /* MoreApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E16EB45291A0037069C36 /* MoreApps.swift */; };
+		4CAA911E46A6FEC030E4E791 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76A2C472B0C4BF5BFEEF2E /* AdsManager.swift */; };
+		548B3AF0DC8EB32AB4749558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F777117FCD9CA08AAE446906 /* Assets.xcassets */; };
+		733D5F32A3CEB0FF0F5EF32C /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB5A65E4761C92BA9FC7B7 /* Design.swift */; };
+		895ECCBA622F194ECF6801F4 /* EntitlementsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4020B6B31D0EDC684079A /* EntitlementsStore.swift */; };
+		91BA8D3AC50FA7A6AD8D5384 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196D0A039DA805FB2950C4A /* DeviceListView.swift */; };
+		A0EEAFDFDEBCB15D5C931C30 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF772383EE8BAE259E6BB598 /* RootView.swift */; };
+		AC8D968C2BC6D41EB705AAE5 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19FA88BCA2062C91E7BEBE4 /* PaywallView.swift */; };
+		B660F4AF0C68044F5EA74342 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6772DD83214D5AB6F19C2E /* SettingsView.swift */; };
+		D38DF269CCD5B40985777599 /* AddDeviceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCE1FF7C45AB1B296D5B06 /* AddDeviceSheet.swift */; };
+		D64FC26A5A7176417188466D /* BatteryBinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2077E3D4C3F53A42CF1986B /* BatteryBinApp.swift */; };
+		D65E84EE1B4619D755EFA843 /* DeviceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC326410FDFA3A86221B38B /* DeviceDetailView.swift */; };
+		FA1DE0E46736A9D422E310AE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E1B6158B8C51BCE80DF9D /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E12491CB55A6CBC40CCF4A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4994007491BFF68DD9FA2CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0E3FEF0789452B4EAFEFBD;
+			remoteInfo = BatteryBin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098557D43712D48B0E441D44 /* BatteryBin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatteryBin.entitlements; sourceTree = "<group>"; };
+		2CA4020B6B31D0EDC684079A /* EntitlementsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementsStore.swift; sourceTree = "<group>"; };
+		3DAB5A65E4761C92BA9FC7B7 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		6196D0A039DA805FB2950C4A /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		7C6772DD83214D5AB6F19C2E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7F97E0BB2CFEC3F6301588CF /* BatteryBinTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BatteryBinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E67D140726BC6125DBDD04 /* BatteryLifeEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLifeEngineTests.swift; sourceTree = "<group>"; };
+		94F9AEBD6813DD6DDF2B49B1 /* BatteryBinStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryBinStore.swift; sourceTree = "<group>"; };
+		A97E1B6158B8C51BCE80DF9D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA76A2C472B0C4BF5BFEEF2E /* AdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
+		B2077E3D4C3F53A42CF1986B /* BatteryBinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryBinApp.swift; sourceTree = "<group>"; };
+		B89CE060DF9D9AE4038A61A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BF4E16EB45291A0037069C36 /* MoreApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreApps.swift; sourceTree = "<group>"; };
+		BF772383EE8BAE259E6BB598 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D021EFBCF9E7D1A2089FE9AF /* BatteryLifeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLifeEngine.swift; sourceTree = "<group>"; };
+		DEC326410FDFA3A86221B38B /* DeviceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailView.swift; sourceTree = "<group>"; };
+		E19FA88BCA2062C91E7BEBE4 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		EFCCE1FF7C45AB1B296D5B06 /* AddDeviceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceSheet.swift; sourceTree = "<group>"; };
+		F11A340FC4987DC4ADBF703D /* BatteryBin.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BatteryBin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F777117FCD9CA08AAE446906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2DC5730AA31B5DF33C4CFD31 /* BatteryBin */ = {
+			isa = PBXGroup;
+			children = (
+				6215F6BDAAAA0C54981BAA8C /* Services */,
+				A33D9638DEEBD750173A32A7 /* Views */,
+				F777117FCD9CA08AAE446906 /* Assets.xcassets */,
+				098557D43712D48B0E441D44 /* BatteryBin.entitlements */,
+				B2077E3D4C3F53A42CF1986B /* BatteryBinApp.swift */,
+				D021EFBCF9E7D1A2089FE9AF /* BatteryLifeEngine.swift */,
+				3DAB5A65E4761C92BA9FC7B7 /* Design.swift */,
+				B89CE060DF9D9AE4038A61A0 /* Info.plist */,
+				A97E1B6158B8C51BCE80DF9D /* Models.swift */,
+				BF772383EE8BAE259E6BB598 /* RootView.swift */,
+			);
+			path = BatteryBin;
+			sourceTree = "<group>";
+		};
+		6215F6BDAAAA0C54981BAA8C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA76A2C472B0C4BF5BFEEF2E /* AdsManager.swift */,
+				94F9AEBD6813DD6DDF2B49B1 /* BatteryBinStore.swift */,
+				2CA4020B6B31D0EDC684079A /* EntitlementsStore.swift */,
+				BF4E16EB45291A0037069C36 /* MoreApps.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6AC20C068412CDB067AB8155 /* BatteryBinTests */ = {
+			isa = PBXGroup;
+			children = (
+				82E67D140726BC6125DBDD04 /* BatteryLifeEngineTests.swift */,
+			);
+			path = BatteryBinTests;
+			sourceTree = "<group>";
+		};
+		9FCF0E7574C0EC806E0E1678 = {
+			isa = PBXGroup;
+			children = (
+				2DC5730AA31B5DF33C4CFD31 /* BatteryBin */,
+				6AC20C068412CDB067AB8155 /* BatteryBinTests */,
+				EFD901AB7F25225C6882AA08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A33D9638DEEBD750173A32A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCE1FF7C45AB1B296D5B06 /* AddDeviceSheet.swift */,
+				DEC326410FDFA3A86221B38B /* DeviceDetailView.swift */,
+				6196D0A039DA805FB2950C4A /* DeviceListView.swift */,
+				E19FA88BCA2062C91E7BEBE4 /* PaywallView.swift */,
+				7C6772DD83214D5AB6F19C2E /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFD901AB7F25225C6882AA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11A340FC4987DC4ADBF703D /* BatteryBin.app */,
+				7F97E0BB2CFEC3F6301588CF /* BatteryBinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C91407D5A718E53494FD6F /* BatteryBinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449E45911BF772368E82ACD1 /* Build configuration list for PBXNativeTarget "BatteryBinTests" */;
+			buildPhases = (
+				619C0BD67F314D541EE3B50B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98384C23A2C5CD030C7AA7BC /* PBXTargetDependency */,
+			);
+			name = BatteryBinTests;
+			packageProductDependencies = (
+			);
+			productName = BatteryBinTests;
+			productReference = 7F97E0BB2CFEC3F6301588CF /* BatteryBinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0E3FEF0789452B4EAFEFBD /* BatteryBin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F5EE088C3D25C50AC7BEB3 /* Build configuration list for PBXNativeTarget "BatteryBin" */;
+			buildPhases = (
+				8A140481A57C0329E9C27091 /* Sources */,
+				19229725F172A08D9E68DD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryBin;
+			packageProductDependencies = (
+			);
+			productName = BatteryBin;
+			productReference = F11A340FC4987DC4ADBF703D /* BatteryBin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4994007491BFF68DD9FA2CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					20C91407D5A718E53494FD6F = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					FB0E3FEF0789452B4EAFEFBD = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4EE00CE579126FE8C8D10B9B /* Build configuration list for PBXProject "BatteryBin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9FCF0E7574C0EC806E0E1678;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFD901AB7F25225C6882AA08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0E3FEF0789452B4EAFEFBD /* BatteryBin */,
+				20C91407D5A718E53494FD6F /* BatteryBinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19229725F172A08D9E68DD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548B3AF0DC8EB32AB4749558 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		619C0BD67F314D541EE3B50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DA6CD424C924AA6B2C6386 /* BatteryLifeEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A140481A57C0329E9C27091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38DF269CCD5B40985777599 /* AddDeviceSheet.swift in Sources */,
+				4CAA911E46A6FEC030E4E791 /* AdsManager.swift in Sources */,
+				D64FC26A5A7176417188466D /* BatteryBinApp.swift in Sources */,
+				060A4D4DDDDFE744C2AC071B /* BatteryBinStore.swift in Sources */,
+				39D01723BE40E05B0C3C0FEB /* BatteryLifeEngine.swift in Sources */,
+				733D5F32A3CEB0FF0F5EF32C /* Design.swift in Sources */,
+				D65E84EE1B4619D755EFA843 /* DeviceDetailView.swift in Sources */,
+				91BA8D3AC50FA7A6AD8D5384 /* DeviceListView.swift in Sources */,
+				895ECCBA622F194ECF6801F4 /* EntitlementsStore.swift in Sources */,
+				FA1DE0E46736A9D422E310AE /* Models.swift in Sources */,
+				405E75F932387678DC7821A7 /* MoreApps.swift in Sources */,
+				AC8D968C2BC6D41EB705AAE5 /* PaywallView.swift in Sources */,
+				A0EEAFDFDEBCB15D5C931C30 /* RootView.swift in Sources */,
+				B660F4AF0C68044F5EA74342 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98384C23A2C5CD030C7AA7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0E3FEF0789452B4EAFEFBD /* BatteryBin */;
+			targetProxy = E12491CB55A6CBC40CCF4A4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D582F5F5C3DB081DB6A7ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatteryBin/BatteryBin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BatteryBin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.batterybin;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2D5C13862A38BADCEADF52C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		30D0AFD6BA84E8546FD80B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.batterybin.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryBin.app/BatteryBin";
+			};
+			name = Debug;
+		};
+		6A515F8345344E85921789A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D46030A044DE3802F300ECD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.batterybin.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryBin.app/BatteryBin";
+			};
+			name = Release;
+		};
+		F5CCCF993B7B99973D6F4FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatteryBin/BatteryBin.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BatteryBin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.batterybin;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449E45911BF772368E82ACD1 /* Build configuration list for PBXNativeTarget "BatteryBinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D0AFD6BA84E8546FD80B1C /* Debug */,
+				D46030A044DE3802F300ECD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4EE00CE579126FE8C8D10B9B /* Build configuration list for PBXProject "BatteryBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A515F8345344E85921789A4 /* Debug */,
+				2D5C13862A38BADCEADF52C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68F5EE088C3D25C50AC7BEB3 /* Build configuration list for PBXNativeTarget "BatteryBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CCCF993B7B99973D6F4FDC /* Debug */,
+				1D582F5F5C3DB081DB6A7ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4994007491BFF68DD9FA2CB5 /* Project object */;
+}

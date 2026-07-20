@@ -1,0 +1,17 @@
+Battery Bin ends the guessing game of "is this thing about to die?" Add every battery-powered device in your home — smoke detectors, remotes, wall clocks, key fobs, flashlights, doorbells — note what kind of battery it takes, and Battery Bin tracks how long it's been since you last changed it.
+
+Each device gets a clear status based on how far it's likely into its expected battery life: Fresh, Check soon, or Likely dead. No more discovering a dead smoke detector at 2am, or a remote that dies mid-show.
+
+FREE
+- Track up to 5 devices
+- Fresh / Check soon / Likely dead status for every device
+- Mark a battery as just changed with one tap
+
+BATTERY BIN PRO (monthly subscription)
+- Unlimited devices
+- Smart "change soon" priority sort — the device most overdue always rises to the top
+- Full battery change history for every device, so you know exactly how long each battery actually lasted
+
+Battery Bin works completely offline. Every device, battery type, and change date you add stays stored only on your device. Nothing is uploaded, no account required.
+
+Subscriptions are billed monthly to your Apple ID and renew automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel anytime in your Apple ID account settings.

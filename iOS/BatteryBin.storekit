@@ -1,0 +1,57 @@
+{
+  "identifier" : "BatteryBin",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6800000000",
+    "_developerTeamID" : "W7Q885Q59C",
+    "_lastSynchronizedDate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21500000",
+      "localizations" : [
+
+      ],
+      "name" : "Battery Bin Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21500001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited devices, smart priority sort, and full change history.",
+              "displayName" : "Battery Bin Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.batterybin.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Battery Bin Pro Monthly",
+          "subscriptionGroupID" : "21500000",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
